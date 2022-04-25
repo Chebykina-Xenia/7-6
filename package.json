@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "The first project cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open --browser chrome",
+    "cy:open:env": "npx cypress open --config-file cypress.env.json --browser edge",
+    "cy:open:headed": "npx cypress open --headed --no-exit"
+  },
+  "keywords": [
+    "test",
+    "cypress",
+    "book"
+  ],
+  "author": "ChebykinaXenia",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.4"
+  }
+}
